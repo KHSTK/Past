@@ -1,0 +1,14 @@
+﻿dialogueID,nodeID,speakerName,dialogueText,nextNodeID,showOptionsImmediately
+Shop,shop_node_01,老板奥利弗,又见面了，呃…你叫什么来着？瞧我这记性，简直是被乌鸦啄过的档案袋一样……,shop_node_02,FALSE
+Shop,shop_node_02,老板奥利弗,天气晴朗，建议穿防毒面具出门,,TRUE
+Shop,shop_node_03,老板奥利弗,你好亲爱的……D-7！对，当然是D-7！,,TRUE
+Rest,rest_node_01,接线员莱恩,物资申领请走7号通道，或者我帮你转接研究员？现任值班的是…,,TRUE
+Rest,rest_node_02,接线员莱恩,要联系谁？,,TRUE
+Rest,rest_node_L_00,莉迪亚博士,听得到吗？信号不太稳定，干扰似乎越来越强了。,rest_node_L_01,FALSE
+Rest,rest_node_N_00,研究员尼娜,D-7，你知道梦和糖果的共通点吗？…都是越甜越容易蛀掉。,rest_node_N_01,FALSE
+Rest,rest_node_L_01,莉迪亚博士,你的状态比预期要好，看来适应性测试很有效果…,rest_node_L_02,FALSE
+Rest,rest_node_L_02,莉迪亚博士,我们还需要更多关于“雾之国”的细节。你需要尽可能到往深处，那些意识体可能是……,rest_node_03,FALSE
+Rest,rest_node_N_01,研究员尼娜,对了，这次测试危险度已经突破预设值了，“雾之国”记录显示…,rest_node_N_02,FALSE
+Rest,rest_node_N_02,研究员尼娜,那些“残存意识体”正在模仿你的脑波频率…,rest_node_N_03,FALSE
+Rest,rest_node_N_03,研究员尼娜,不建议你再……,rest_node_03,FALSE
+Rest,rest_node_03, ,（联络信号突然被切断了……）,,FALSE

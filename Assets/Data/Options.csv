@@ -1,0 +1,9 @@
+﻿nodeID,optionName,responseText,nextNodeID,effects
+shop_node_02,打开商店,也许你能派上用场,,
+shop_node_02,闲聊,没问题,shop_node_03,
+shop_node_03,空信封,你问这些信件？有趣的问题，因为没人愿意签收自己的死亡通知书。,,
+shop_node_03,询问近况,这里已经没法分清白天和黑夜了，所以我24个小时都在处理这些头疼的信件……,,
+rest_node_01,领物资,您真的需要这些吗？,,
+rest_node_01,转接线,好的。,rest_node_02,
+rest_node_02,莉迪亚博士,接线中···,rest_node_L_00,
+rest_node_02,研究员尼娜,接线中···,rest_node_N_00,

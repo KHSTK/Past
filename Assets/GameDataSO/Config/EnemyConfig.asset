@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d744cfcc550384cbe5e1f5e38b757f, type: 3}
+  m_Name: EnemyConfig
+  m_EditorClassIdentifier: 
+  enemyDataList:
+  - enemyID: E001
+    enemyName: "\u8336\u676F\u5E15\u5F17"
+    enemyDescription: "\u8336\u676F\u91CC\u9762\u52A0\u4E86\u4EC0\u4E48\u8FDB\u53BB\uFF1F"
+    maxHp: 200
+    damage: 5
+    time: 2
+    enemyType: 0
+    enemyEffect: {fileID: 0}
+  - enemyID: E002
+    enemyName: "\u5FAE\u7B11\u5E15\u5F17"
+    enemyDescription: "\u5B8C\u7F8E\u7684\u5B69\u5B50\uFF0C\u5E94\u8BE5\u6C38\u8FDC\u4FDD\u6301\u5FAE\u7B11\u3002"
+    maxHp: 200
+    damage: 5
+    time: 2
+    enemyType: 0
+    enemyEffect: {fileID: 0}
+  - enemyID: E003
+    enemyName: "\u9762\u5177\u5E15\u5F17"
+    enemyDescription: "\u547C\u5438\u5373\u7F6A\u5B7D\uFF0C\u5B58\u6D3B\u5373\u60E9\u7F5A\u3002"
+    maxHp: 200
+    damage: 5
+    time: 2
+    enemyType: 0
+    enemyEffect: {fileID: 0}
+  - enemyID: E004
+    enemyName: "\u5DEB\u533B"
+    enemyDescription: "\u6253\u626E\u5947\u602A\u7684\u533B\u751F\uFF1F"
+    maxHp: 400
+    damage: 9
+    time: 2
+    enemyType: 1
+    enemyEffect: {fileID: 0}
+  - enemyID: E005
+    enemyName: "\u533B\u8005\u827E\u7433"
+    enemyDescription: "\u5979\u672C\u53EF\u4EE5\u6210\u4E3A\u82F1\u96C4\u2026\u2026\u5374\u6210\u4E86\u96FE\u4E2D\u53C8\u4E00\u4E2A\u88AB\u9057\u5FD8\u7684\u60B2\u5267\u3002"
+    maxHp: 450
+    damage: 8
+    time: 2
+    enemyType: 1
+    enemyEffect: {fileID: 0}
+  - enemyID: E006
+    enemyName: "\u6B8B\u613F\u86CB\u7CD5"
+    enemyDescription: "\u8FD9\u662F\u4F60\u6536\u5230\u7684\u6700\u540E\u4E00\u4E2A\u751F\u65E5\u86CB\u7CD5\uFF0C\u4F60\u5F53\u65F6\u8BB8\u4E86\u4EC0\u4E48\u613F\uFF1F"
+    maxHp: 400
+    damage: 10
+    time: 3
+    enemyType: 1
+    enemyEffect: {fileID: 0}
+  - enemyID: E007
+    enemyName: "\u65C5\u9F20\u5C0F\u679C"
+    enemyDescription: "\u6CA1\u4EBA\u77E5\u9053\u5B83\u4ECE\u54EA\u513F\u6765\uFF0C\u4E5F\u6CA1\u4EBA\u77E5\u9053\u5B83\u8981\u53BB\u54EA\u91CC\u2026\u2026\u4E5F\u8BB8\u5B83\u81EA\u5DF1\u4E5F\u4E0D\u6E05\u695A\uFF1F"
+    maxHp: 450
+    damage: 8
+    time: 2
+    enemyType: 1
+    enemyEffect: {fileID: 0}
+  - enemyID: E008
+    enemyName: "\u89C2\u6D4B\u8005\u4E4B\u5375"
+    enemyDescription: "\u5B83\u80FD\u770B\u5230\u8FC7\u53BB\u3001\u73B0\u5728\u3001\u672A\u6765\uFF0C\u5374\u65E0\u6CD5\u6539\u53D8\u4EFB\u4F55\u4E8B\u3002"
+    maxHp: 600
+    damage: 15
+    time: 3
+    enemyType: 2
+    enemyEffect: {fileID: 0}
+  - enemyID: E009
+    enemyName: "\u4E16\u754C\u4E4B\u7A97"
+    enemyDescription: "\u4ED6\u4EEC\u627F\u8BFA\u8BA9\u751F\u75C5\u7684\u5B69\u5B50\u5728\u68A6\u91CC\u5954\u8DD1\u2026\u2026\u5374\u6CA1\u4EBA\u8BF4\u8FC7\uFF0C\u68A6\u4E5F\u4F1A\u53D8\u6210\u7262\u7B3C\u3002"
+    maxHp: 650
+    damage: 15
+    time: 3
+    enemyType: 2
+    enemyEffect: {fileID: 0}
+  - enemyID: E0010
+    enemyName: "\u94C1\u6876\u9A91\u58EB"
+    enemyDescription: "\u5B83\u6CA1\u4EC0\u4E48\u654C\u610F\uFF0C\u53EA\u662F\u6709\u70B9\u770B\u4E0D\u6E05\u8DEF"
+    maxHp: 250
+    damage: 8
+    time: 2
+    enemyType: 0
+    enemyEffect: {fileID: 0}
+  - enemyID: E0011
+    enemyName: "\u6D77\u5A1C"
+    enemyDescription: "\u4E00\u53EA\u8EAB\u7740\u5B9E\u9A8C\u670D\u7684\u5C0F\u732B\uFF0C\u6B63\u5728\u7528\u7834\u6876\u3001\u94C1\u76AE\u548C\u73BB\u7483\u5806\u780C\u51FA\u8BB0\u5FC6\u4E2D\u7684\u6D77\u6D0B\uFF0C\u5374\u6C38\u8FDC\u62FC\u51D1\u4E0D\u51FA\u5E72\u51C0\u7684\u6D77\u6D6A\u58F0\u3002"
+    maxHp: 420
+    damage: 10
+    time: 3
+    enemyType: 1
+    enemyEffect: {fileID: 0}

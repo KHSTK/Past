@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfce32f0f2ffac4798b59a84eab281c, type: 3}
+  m_Name: SelectCardEvent
+  m_EditorClassIdentifier: 
+  description: "\u9009\u4E2D\u5806\u4EA7\u751F\u5361\u724C\u53D8\u5316\u4E8B\u4EF6"
+  _senders:
+  - CardDeck (CardDeck) (18:14:57)
+  - CardDeck (CardDeck) (18:14:57)
+  - CardDeck (CardDeck) (18:14:58)
+  - CardDeck (CardDeck) (18:14:58)
+  - CardDeck (CardDeck) (18:14:58)
+  _maxDisplay: 5
+  lastSender: 

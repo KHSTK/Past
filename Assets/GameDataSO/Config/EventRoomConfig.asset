@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0024b72d9b81aa349b31bea322072a6e, type: 3}
+  m_Name: EventRoomConfig
+  m_EditorClassIdentifier: 
+  events:
+  - eventID: event_rhyme
+    eventName: "\u71C3\u70E7\u7684\u7AE5\u8C23"
+    startDescription: "\u4E00\u7FA4\u5E15\u5F17\u56F4\u5750\u5728\u5730\u4E0A\u5531\u7740\u6447\u7BEE\u66F2\uFF0C\u6B4C\u8BCD\u7684\u5185\u5BB9\u5374\u6781\u4E3A\u8BE1\u5F02\uFF1A\u70DF\u56F1\u5410\u51FA\u5916\u5A46\u7684\u5934\u53D1\uFF0C\u62A4\u58EB\u7684\u978B\u8DDF\u54D2\u54D2\u54D2\u2026"
+    options:
+    - optionName: "\u52A0\u5165\u5408\u5531"
+      effects:
+      - effectType: 4
+        intValue: -5
+        stringValue: 
+      - effectType: 1
+        intValue: 5
+        stringValue: 
+      - effectType: 6
+        intValue: 1
+        stringValue: 
+      endDescription: "\u4F60\u52A0\u5165\u4E86\u4ED6\u4EEC\uFF0C\u6B4C\u58F0\u4F7F\u5F97\u4F60\u6709\u4E86\u65B0\u7684\u60F3\u6CD5\u3002"
+    - optionName: "\u6253\u65AD\u4ED6\u4EEC"
+      effects:
+      - effectType: 6
+        intValue: 2
+        stringValue: 
+      endDescription: "\u5E15\u5F17\u4EEC\u7A81\u7136\u53D8\u6210\u7126\u9ED1\u7070\u70EC\uFF0C\u6D88\u5931\u4E86\u2026"
+  - eventID: event_potion
+    eventName: "\u9ED1\u8BCA\u5BA4"
+    startDescription: "\u6B62\u54B3\u592B\u4EBA\u7684\u8BCA\u6240\u7A81\u73B0\u201C\u6709\u507F\u8BD5\u836F\u201D\u62DB\u724C\uFF0C\u4F46\u662F\u8FD9\u6279\u836F\u6C34\u5374\u6CDB\u7740\u5947\u602A\u7684\u8272\u6CFD\uFF0C\u786E\u5B9A\u8981\u559D\u8FD9\u4E2A\u5417\uFF1F"
+    options:
+    - optionName: "\u996E\u7528\u5947\u602A\u7684\u7CD6\u6D46"
+      effects:
+      - effectType: 0
+        intValue: 5
+        stringValue: 
+      - effectType: 4
+        intValue: -5
+        stringValue: 
+      endDescription: "\u773C\u524D\u51FA\u73B0\u4E86\u53EF\u6015\u7684\u5E7B\u89C9\u2026"
+    - optionName: "\u62D2\u7EDD"
+      effects: []
+      endDescription: "\u4F60\u65E0\u89C6\u4E86\u5979\u7684\u547C\u558A\uFF0C\u79BB\u5F00\u4E86\u8BCA\u6240"

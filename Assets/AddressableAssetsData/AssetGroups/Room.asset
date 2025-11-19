@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Room
+  m_EditorClassIdentifier: 
+  m_GroupName: Room
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8cdb579f945a2134e9ae1af47dc1428b
+  m_SerializeEntries:
+  - m_GUID: 5074c8b33c5bf484e9fd7033bb7917a1
+    m_Address: Rest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d93aca46c992924d9f678c47b430489
+    m_Address: Enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b721248c1270ec49aa9cc4f5a2450d2
+    m_Address: Menu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c9cfa26abfee488c85f1582747f6a02
+    m_Address: Persistent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e0b2c56823e78c418393e66e02d63c5
+    m_Address: Shop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b0400f3fde44cc4aabb3650ef3395fc
+    m_Address: Map
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8be5d5deb59951419fa0362f80b31c6
+    m_Address: Event
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 94b4b601ad741e949987754ba4abf275, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 007d8b143e32543438af7fbe4d83c386, type: 2}
+    - {fileID: 11400000, guid: 9102e34f5a837ee4191cb1b04e222130, type: 2}

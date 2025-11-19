@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfce32f0f2ffac4798b59a84eab281c, type: 3}
+  m_Name: LoadOverEvent
+  m_EditorClassIdentifier: 
+  description: "\u623F\u95F4\u573A\u666F\u52A0\u8F7D\u5B8C\u6BD5\u4E8B\u4EF6"
+  _senders:
+  - ScenesLoadManager (ScenesLoadManager) (11:08:23)
+  - ScenesLoadManager (ScenesLoadManager) (11:28:54)
+  - ScenesLoadManager (ScenesLoadManager) (18:09:11)
+  - ScenesLoadManager (ScenesLoadManager) (18:11:16)
+  - ScenesLoadManager (ScenesLoadManager) (18:14:49)
+  _maxDisplay: 5
+  lastSender: 

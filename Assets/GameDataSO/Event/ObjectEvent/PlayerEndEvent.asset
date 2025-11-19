@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfce32f0f2ffac4798b59a84eab281c, type: 3}
+  m_Name: PlayerEndEvent
+  m_EditorClassIdentifier: 
+  description: "\u73A9\u5BB6\u56DE\u5408\u7ED3\u675F\u4E8B\u4EF6\n"
+  _senders:
+  - ComboDetector (ComboDetector) (10:48:54)
+  - ComboDetector (ComboDetector) (11:29:30)
+  - ComboDetector (ComboDetector) (11:29:55)
+  - ComboDetector (ComboDetector) (11:30:05)
+  - ComboDetector (ComboDetector) (11:30:13)
+  _maxDisplay: 5
+  lastSender: 

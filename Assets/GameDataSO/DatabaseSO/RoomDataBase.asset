@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba150e2a5bb91c4fbabe8050e26c508, type: 3}
+  m_Name: RoomDataBase
+  m_EditorClassIdentifier: 
+  roomVisualData:
+  - roomType: 1
+    roomSprite: {fileID: 21300000, guid: 37e7012eb2b7c4d4dad85cff5fbf5e26, type: 3}
+  - roomType: 2
+    roomSprite: {fileID: 21300000, guid: ab5d708145b28fc43ad81a892ee3b862, type: 3}
+  - roomType: 4
+    roomSprite: {fileID: -1537001533, guid: d0f71262f9f8c91448885e31c0448740, type: 3}
+  - roomType: 8
+    roomSprite: {fileID: 21300000, guid: 8489508a3ae38134b820017660e34aed, type: 3}
+  - roomType: 16
+    roomSprite: {fileID: 21300000, guid: ac51531f5d97da94292a6479a6d60ad2, type: 3}
+  - roomType: 32
+    roomSprite: {fileID: 21300000, guid: 631ca9f994fefe9459148e02296f1d4c, type: 3}

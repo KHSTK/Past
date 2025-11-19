@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0024b72d9b81aa349b31bea322072a6e, type: 3}
+  m_Name: Event Room Config SO
+  m_EditorClassIdentifier: 
+  events:
+  - eventID: Event1
+    eventName: "\u796D\u575B"
+    startDescription: "\u4F60\u53D1\u73B0\u4E00\u4E2A\u796D\u575B\u4E0A\u6709\u4E00\u4E2A\u5929\u79E4"
+    options:
+    - optionName: "\u8C03\u5E73\u5929\u67B0"
+      effects:
+      - effectType: 1
+        intValue: 5
+        stringValue: 
+      endDescription: "\u4F60\u8C03\u5E73\u4E86\u5929\u79E4"
+    - optionName: "\u62FF\u8D70\u786C\u5E01"
+      effects:
+      - effectType: 0
+        intValue: 10
+        stringValue: 
+      endDescription: "\u4F60\u62FF\u8D70\u4E86\u786C\u5E01"
+  restEvents:
+  - eventID: R001
+    eventName: "\u8054\u7EDC\u5904"
+    startDescription: 
+    options: []

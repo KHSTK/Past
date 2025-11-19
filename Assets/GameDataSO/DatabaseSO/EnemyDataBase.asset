@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54008c7cc00c6ee44a0191ebbb6aa7b7, type: 3}
+  m_Name: EnemyDataBase
+  m_EditorClassIdentifier: 
+  enemyVisualData:
+  - enemyId: E001
+    enemySprite: {fileID: 21300000, guid: 74fbb6598ffb7b441a93ca00fb93bd85, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 664f69222f7d300438290a44eae455e1, type: 2}
+  - enemyId: E002
+    enemySprite: {fileID: 21300000, guid: 733767ec8e6850144a50a60758dc28cb, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: c579f1023d5e0934fb9e5dbb76054951, type: 2}
+  - enemyId: E003
+    enemySprite: {fileID: 21300000, guid: 274d659664c661042b0bab87ffd6cf90, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 5da4ed19444eb564288a0b124d7621ea, type: 2}
+  - enemyId: E004
+    enemySprite: {fileID: 21300000, guid: d7306d8e74d55b645a5d79d234866aeb, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 055c3e1e2ad2fff419dcc4ce984fc818, type: 2}
+  - enemyId: E005
+    enemySprite: {fileID: 21300000, guid: 752565692de1eec499ea267790caa9a8, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 9ea075649d004b54dbc907572b8a9347, type: 2}
+  - enemyId: E006
+    enemySprite: {fileID: 21300000, guid: c91be1b218db6804faaaa6ebaafa6de0, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 8c383cae530646243bf6d65b587c5092, type: 2}
+  - enemyId: E007
+    enemySprite: {fileID: 21300000, guid: 4675ac757c78e404ba5685192a620a73, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 22d1cfd4b8521944889aa3e30548029b, type: 2}
+  - enemyId: E008
+    enemySprite: {fileID: 21300000, guid: 3e622f5f14d0260449e997e68198b3e0, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 8dd7b1fc709da0647923e43f0851cda1, type: 2}
+  - enemyId: E009
+    enemySprite: {fileID: 21300000, guid: f6cdb5e466f08324ab4a90377b398851, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 2573ffef33df87c42969875b771f38c1, type: 2}
+  - enemyId: E0010
+    enemySprite: {fileID: 21300000, guid: 6a0ba7527a3d9fb4696fdb576cd42326, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 6acdf5f440a3e664fba89128e381d47c, type: 2}
+  - enemyId: E0011
+    enemySprite: {fileID: 21300000, guid: ecc1ca17dfe5cec46ba6a180167dc7b4, type: 3}
+    enemyAnimator: {fileID: 9100000, guid: 29bc0bb5fe1340a41b79539743981570, type: 2}

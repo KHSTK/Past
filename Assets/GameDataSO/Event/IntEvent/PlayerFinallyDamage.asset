@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1424f7880f7aee04e82a3077b7bd5d7c, type: 3}
+  m_Name: PlayerFinallyDamage
+  m_EditorClassIdentifier: 
+  description: "\u4F20\u9012\u73A9\u5BB6\u9020\u6210\u7684\u4F24\u5BB3"
+  _senders:
+  - Enemy (Enemy) (10:48:57)
+  - Enemy (Enemy) (11:29:32)
+  - Enemy (Enemy) (11:29:59)
+  - Enemy (Enemy) (11:30:07)
+  - Enemy (Enemy) (11:30:15)
+  _maxDisplay: 5
+  lastSender: 
